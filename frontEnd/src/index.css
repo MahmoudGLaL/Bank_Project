@@ -1,0 +1,91 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+.font-lateef {
+  font-family: 'Lateef', cursive;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.font-noto-naskh {
+  font-family: 'Noto Naskh Arabic', serif;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: #000 #f4f4f4; */
+ 
+ 
+}
+
+body{
+  background-color:#f3f3f4;
+}
+
+.bg-sidenav{
+  background-image: url("./assests/sideMenu3.png");
+  /* background-color: #8a8885f5 ; */
+  background-repeat: no-repeat;
+  margin-top: 0;
+  height: 100vh;
+ 
+}
+
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 14; */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.Toastify__toast {
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Hide scrollbar for all elements */
+
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none; /* Firefox */
+}
+
